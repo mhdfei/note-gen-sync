@@ -84,6 +84,7 @@
   "useImageRepo": false,
   "enableCondense": true,
   "sttModel": "",
+  "autoDataSyncInitialChoice:github": true,
   "previewTheme": "github",
   "keepLatestCount": 4,
   "currentAi": "",
