@@ -1,138 +1,33 @@
 {
-  "language": "简体中文",
-  "githubUsername": "mhdfei",
-  "commitModel": "note-gen-chat",
-  "autoSync": "5",
-  "condenseMaxLength": 100,
-  "speechToTextMode": "auto",
-  "recordTextSize": "sm",
-  "gitlabInstanceType": "gitlab.com",
-  "chatToolbarConfigMobile": [
-    {
-      "enabled": true,
-      "id": "modelSelect",
-      "order": 0
+  "completionModel": "note-gen-chat",
+  "noteGenDefaultModelsCache": {
+    "content": {
+      "models": [
+        {
+          "enableStream": true,
+          "id": "note-gen-chat",
+          "model": "Qwen/Qwen3-8B",
+          "modelType": "chat",
+          "temperature": 0.7,
+          "topP": 1
+        },
+        {
+          "id": "note-gen-embedding",
+          "model": "BAAI/bge-m3",
+          "modelType": "embedding"
+        },
+        {
+          "id": "note-gen-vlm",
+          "model": "THUDM/GLM-4.1V-9B-Thinking",
+          "modelType": "chat"
+        }
+      ]
     },
-    {
-      "enabled": true,
-      "id": "promptSelect",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "mcpButton",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "ragSwitch",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "clipboardMonitor",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "newChat",
-      "order": 5
-    }
-  ],
-  "enableImageRecognition": true,
-  "primaryImageMethod": "vlm",
-  "giteeCustomSyncRepo": "",
-  "giteaAutoSync": "disabled",
-  "currentPage": "/mobile/setting",
-  "giteaUsername": "",
-  "embeddingModel": "note-gen-embedding",
-  "githubCustomSyncRepo": "",
-  "githubCustomImageRepo": "",
-  "audioModel": "",
-  "giteaInstanceType": "gitea.com",
-  "textToSpeechMode": "auto",
-  "condenseModel": "note-gen-chat",
-  "markDescModel": "note-gen-chat",
-  "activeFilePath": "untitled.md",
-  "autoPullOnSwitch": true,
-  "templateList": [
-    {
-      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
-      "id": "0",
-      "range": "all",
-      "status": true,
-      "title": "笔记"
-    },
-    {
-      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
-      "id": "1",
-      "range": "week",
-      "status": true,
-      "title": "周报"
-    }
-  ],
-  "lastSettingPage": "ai",
-  "currentPromptId": "0",
-  "autoUpdate": true,
-  "codeTheme": "github",
-  "tesseractList": "eng,chi_sim",
-  "giteeAutoSync": "disabled",
-  "inspirationModel": "note-gen-chat",
-  "giteaCustomUrl": "",
-  "gitlabCustomUrl": "",
-  "darkMode": "system",
-  "useImageRepo": false,
-  "enableCondense": true,
-  "sttModel": "",
-  "autoDataSyncInitialChoice:github": true,
-  "previewTheme": "github",
-  "keepLatestCount": 4,
-  "currentAi": "",
-  "promptList": [
-    {
-      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
-      "id": "0",
-      "isDefault": true,
-      "title": "写作助手"
-    }
-  ],
-  "showEditorUndoRedo": true,
-  "chatToolbarConfigPc": [
-    {
-      "enabled": true,
-      "id": "modelSelect",
-      "order": 0
-    },
-    {
-      "enabled": true,
-      "id": "promptSelect",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "mcpButton",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "ragSwitch",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "clipboardMonitor",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "newChat",
-      "order": 5
-    }
-  ],
-  "gitlabCustomSyncRepo": "",
+    "fetchedAt": "2026-06-11T08:13:52.771Z",
+    "versionCode": 102,
+    "versionName": "1.0.2"
+  },
   "gitlabUsername": "",
-  "fileManagerTextSize": "sm",
-  "currentTagId": 1,
   "customThemeColors": {
     "dark": {
       "accent": null,
@@ -171,6 +66,146 @@
       "thirdForeground": null
     }
   },
+  "githubUsername": "mhdfei",
+  "rerankingModel": "",
+  "gitlabCustomSyncRepo": "",
+  "sttModel": "",
+  "inspirationModel": "note-gen-chat",
+  "audioModel": "",
+  "giteaUsername": "",
+  "autoPullOnSwitch": true,
+  "currentAi": "",
+  "primaryImageMethod": "vlm",
+  "imageMethodModel": "note-gen-vlm",
+  "currentTagId": 1,
+  "githubCustomImageRepo": "",
+  "condenseModel": "note-gen-chat",
+  "gitlabInstanceType": "gitlab.com",
+  "markDescModel": "note-gen-chat",
+  "codeTheme": "github",
+  "activeFilePath": "untitled.md",
+  "currentPromptId": "0",
+  "autoDataSyncInitialChoice:github": true,
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "all",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "week",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "gitlabCustomUrl": "",
+  "giteeCustomSyncRepo": "",
+  "embeddingModel": "note-gen-embedding",
+  "condenseMaxLength": 100,
+  "speechToTextMode": "auto",
+  "fileManagerTextSize": "sm",
+  "textToSpeechMode": "auto",
+  "enableImageRecognition": true,
+  "giteeAutoSync": "disabled",
+  "autoUpdate": true,
+  "currentPage": "/mobile/writing",
+  "globalSearchFilter": "all",
+  "chatToolbarConfigPc": [
+    {
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "newChat",
+      "order": 5
+    }
+  ],
+  "enableCondense": true,
+  "giteaCustomUrl": "",
+  "version": "0.29.0",
+  "commitModel": "note-gen-chat",
+  "placeholderModel": "",
+  "tesseractList": "eng,chi_sim",
+  "showEditorUndoRedo": true,
+  "gitlabAutoSync": "disabled",
+  "darkMode": "system",
+  "jsdelivr": true,
+  "giteaCustomSyncRepo": "",
+  "chatToolbarConfigMobile": [
+    {
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "newChat",
+      "order": 5
+    }
+  ],
+  "lastSettingPage": "ai",
+  "giteaAutoSync": "disabled",
+  "useImageRepo": false,
+  "recordTextSize": "sm",
+  "promptList": [
+    {
+      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
+      "id": "0",
+      "isDefault": true,
+      "title": "写作助手"
+    }
+  ],
+  "language": "简体中文",
+  "giteaInstanceType": "gitea.com",
+  "autoPullOnOpen": true,
+  "keepLatestCount": 4,
+  "primaryModel": "note-gen-chat",
   "recordToolbarConfig": [
     {
       "enabled": true,
@@ -208,42 +243,7 @@
       "order": 6
     }
   ],
-  "noteGenDefaultModelsCache": {
-    "content": {
-      "models": [
-        {
-          "enableStream": true,
-          "id": "note-gen-chat",
-          "model": "Qwen/Qwen3-8B",
-          "modelType": "chat",
-          "temperature": 0.7,
-          "topP": 1
-        },
-        {
-          "id": "note-gen-embedding",
-          "model": "BAAI/bge-m3",
-          "modelType": "embedding"
-        },
-        {
-          "id": "note-gen-vlm",
-          "model": "THUDM/GLM-4.1V-9B-Thinking",
-          "modelType": "chat"
-        }
-      ]
-    },
-    "fetchedAt": "2026-06-11T08:13:52.771Z",
-    "versionCode": 102,
-    "versionName": "1.0.2"
-  },
-  "placeholderModel": "",
-  "globalSearchFilter": "all",
-  "primaryModel": "note-gen-chat",
-  "autoPullOnOpen": true,
-  "completionModel": "note-gen-chat",
-  "version": "0.29.0",
-  "imageMethodModel": "note-gen-vlm",
-  "rerankingModel": "",
-  "giteaCustomSyncRepo": "",
-  "jsdelivr": true,
-  "gitlabAutoSync": "disabled"
+  "autoSync": "5",
+  "previewTheme": "github",
+  "githubCustomSyncRepo": ""
 }
