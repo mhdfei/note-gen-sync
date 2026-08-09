@@ -1,5 +1,106 @@
 {
+  "currentAi": "",
+  "autoPullOnOpen": true,
+  "githubCustomImageRepo": "",
+  "giteeAutoSync": "disabled",
+  "condenseMaxLength": 100,
+  "markDescModel": "note-gen-chat",
+  "currentPage": "/mobile/writing",
+  "condenseModel": "note-gen-chat",
+  "recordToolbarConfig": [
+    {
+      "enabled": true,
+      "id": "text",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "recording",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "scan",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "image",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "link",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "file",
+      "order": 5
+    },
+    {
+      "enabled": true,
+      "id": "todo",
+      "order": 6
+    }
+  ],
+  "recordTextSize": "sm",
+  "placeholderModel": "",
+  "giteeCustomSyncRepo": "",
+  "sttModel": "",
   "completionModel": "note-gen-chat",
+  "inspirationModel": "note-gen-chat",
+  "autoDataSyncInitialChoice:github": true,
+  "embeddingModel": "note-gen-embedding",
+  "gitlabCustomSyncRepo": "",
+  "rerankingModel": "",
+  "version": "0.29.0",
+  "githubUsername": "mhdfei",
+  "fileManagerTextSize": "sm",
+  "autoUpdate": true,
+  "activeFilePath": "untitled.md",
+  "enableCondense": true,
+  "gitlabUsername": "",
+  "gitlabInstanceType": "gitlab.com",
+  "chatToolbarConfigPc": [
+    {
+      "enabled": true,
+      "id": "modelSelect",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "promptSelect",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "mcpButton",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "ragSwitch",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "clipboardMonitor",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "newChat",
+      "order": 5
+    }
+  ],
+  "audioModel": "",
+  "gitlabAutoSync": "disabled",
+  "tesseractList": "eng,chi_sim",
+  "codeTheme": "github",
+  "giteaCustomUrl": "",
+  "enableImageRecognition": true,
+  "textToSpeechMode": "auto",
   "noteGenDefaultModelsCache": {
     "content": {
       "models": [
@@ -27,7 +128,7 @@
     "versionCode": 102,
     "versionName": "1.0.2"
   },
-  "gitlabUsername": "",
+  "globalSearchFilter": "all",
   "customThemeColors": {
     "dark": {
       "accent": null,
@@ -66,26 +167,23 @@
       "thirdForeground": null
     }
   },
-  "githubUsername": "mhdfei",
-  "rerankingModel": "",
-  "gitlabCustomSyncRepo": "",
-  "sttModel": "",
-  "inspirationModel": "note-gen-chat",
-  "audioModel": "",
-  "giteaUsername": "",
-  "autoPullOnSwitch": true,
-  "currentAi": "",
+  "showEditorUndoRedo": true,
+  "previewTheme": "github",
+  "autoSync": "5",
   "primaryImageMethod": "vlm",
-  "imageMethodModel": "note-gen-vlm",
-  "currentTagId": 1,
-  "githubCustomImageRepo": "",
-  "condenseModel": "note-gen-chat",
-  "gitlabInstanceType": "gitlab.com",
-  "markDescModel": "note-gen-chat",
-  "codeTheme": "github",
-  "activeFilePath": "untitled.md",
+  "useImageRepo": false,
+  "lastSettingPage": "ai",
+  "keepLatestCount": 4,
+  "giteaAutoSync": "disabled",
+  "primaryModel": "note-gen-chat",
+  "giteaUsername": "",
   "currentPromptId": "0",
-  "autoDataSyncInitialChoice:github": true,
+  "currentTagId": 1,
+  "giteaCustomSyncRepo": "",
+  "language": "简体中文",
+  "speechToTextMode": "auto",
+  "jsdelivr": true,
+  "giteaInstanceType": "gitea.com",
   "templateList": [
     {
       "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
@@ -103,60 +201,6 @@
     }
   ],
   "gitlabCustomUrl": "",
-  "giteeCustomSyncRepo": "",
-  "embeddingModel": "note-gen-embedding",
-  "condenseMaxLength": 100,
-  "speechToTextMode": "auto",
-  "fileManagerTextSize": "sm",
-  "textToSpeechMode": "auto",
-  "enableImageRecognition": true,
-  "giteeAutoSync": "disabled",
-  "autoUpdate": true,
-  "currentPage": "/mobile/writing",
-  "globalSearchFilter": "all",
-  "chatToolbarConfigPc": [
-    {
-      "enabled": true,
-      "id": "modelSelect",
-      "order": 0
-    },
-    {
-      "enabled": true,
-      "id": "promptSelect",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "mcpButton",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "ragSwitch",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "clipboardMonitor",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "newChat",
-      "order": 5
-    }
-  ],
-  "enableCondense": true,
-  "giteaCustomUrl": "",
-  "version": "0.29.0",
-  "commitModel": "note-gen-chat",
-  "placeholderModel": "",
-  "tesseractList": "eng,chi_sim",
-  "showEditorUndoRedo": true,
-  "gitlabAutoSync": "disabled",
-  "darkMode": "system",
-  "jsdelivr": true,
-  "giteaCustomSyncRepo": "",
   "chatToolbarConfigMobile": [
     {
       "enabled": true,
@@ -189,10 +233,6 @@
       "order": 5
     }
   ],
-  "lastSettingPage": "ai",
-  "giteaAutoSync": "disabled",
-  "useImageRepo": false,
-  "recordTextSize": "sm",
   "promptList": [
     {
       "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
@@ -201,49 +241,9 @@
       "title": "写作助手"
     }
   ],
-  "language": "简体中文",
-  "giteaInstanceType": "gitea.com",
-  "autoPullOnOpen": true,
-  "keepLatestCount": 4,
-  "primaryModel": "note-gen-chat",
-  "recordToolbarConfig": [
-    {
-      "enabled": true,
-      "id": "text",
-      "order": 0
-    },
-    {
-      "enabled": true,
-      "id": "recording",
-      "order": 1
-    },
-    {
-      "enabled": true,
-      "id": "scan",
-      "order": 2
-    },
-    {
-      "enabled": true,
-      "id": "image",
-      "order": 3
-    },
-    {
-      "enabled": true,
-      "id": "link",
-      "order": 4
-    },
-    {
-      "enabled": true,
-      "id": "file",
-      "order": 5
-    },
-    {
-      "enabled": true,
-      "id": "todo",
-      "order": 6
-    }
-  ],
-  "autoSync": "5",
-  "previewTheme": "github",
-  "githubCustomSyncRepo": ""
+  "darkMode": "system",
+  "imageMethodModel": "note-gen-vlm",
+  "githubCustomSyncRepo": "",
+  "autoPullOnSwitch": true,
+  "commitModel": "note-gen-chat"
 }
